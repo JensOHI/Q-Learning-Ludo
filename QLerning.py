@@ -1,22 +1,7 @@
 import ludopy
 import numpy as np
-import itertools
 import time
-import textwrap
 from copy import deepcopy
-
-import matplotlib.pyplot as plt
-
-#https://ieeexplore-ieee-org.proxy1-bib.sdu.dk/document/6031999
-#Complexity analysis and playing strategies for Ludo and its variant race games
-
-#https://stackoverflow.com/questions/36459969/python-convert-list-to-dictionary-with-indexes-as-values
-#https://stackoverflow.com/questions/12935194/permutations-between-two-lists-of-unequal-length
-#https://stackoverflow.com/questions/3099987/generating-permutations-with-repetitions
-#https://stackoverflow.com/questions/464864/how-to-get-all-possible-combinations-of-a-list-s-elements
-
-#https://stackoverflow.com/questions/48568717/how-to-encode-with-actual-bits-in-python?fbclid=IwAR3VWDgBgqbpdVPwOI4AuvZSxOUJTwGO1XaeSqsp5GXgkupfKTE6UoUlzxw
-
 EPSILON = 0.15
 
 
